@@ -1,0 +1,24 @@
+.img {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+.nopro{
+  margin-left: 45px;
+  color: red;
+  margin: auto;
+  font-size: 32px;
+}
+.slidelabel {
+  margin-left: 30%;
+  text-align: center;
+}
+.body {
+  padding-top: 2%;
+}

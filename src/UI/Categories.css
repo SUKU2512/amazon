@@ -1,0 +1,23 @@
+.icons{
+    height: 5%;
+    width: 5%;
+    margin-right: 3%;
+    margin-left: 4%;
+    cursor: pointer;
+    color: black;
+}
+.icons:hover{
+    box-shadow: 2px 2px 2px 2px black;
+}
+h6,h3{
+    text-align: center;
+}
+h6{
+    font-weight: lighter;
+    margin-bottom: 5%;
+    font-size:medium;
+    margin-left: 25px;
+}
+.cApp{
+    margin-top: 80px;
+}

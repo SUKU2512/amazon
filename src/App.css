@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+.bg-text {
+    background-color: #dad9d9;
+    font-weight: bold;
+    border: 1px solid gray;
+    width: 384px;
+    padding: 34px;
+
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    -ms-overflow-style: none;
+    scrollbar-width:auto;
+    font-family: 'Roboto', sans-serif!important;
+  }
+   .hidey {
+    display: none;
+  }
+  .mydivy{
+    width: 20px;
+  }   
+  .mydivy:hover + .hidey {
+    display: block;
+    color: red;
+  }
+  .sizey{
+    display: block;
+    margin-right: 10px;
+    width: 215px;
+    margin-bottom: 20px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  #delete{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+  }
+  #btn{
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px white;
+  }
+  #error{
+    color: red;
+    text-align:left;
+    font-size:x-small;
+  }
+  #put{
+    color: green;
+    text-align: center;
+    font-size: medium;
+    text-decoration: none;
+  }
+  .SignApp{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 200px;
+    margin-top: 10%;
+  }
+  .LogApp{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 80%;
+    margin-bottom: 100px;
+  }
+  h6{
+    color: black;
+  }
+  a{
+    text-decoration: none!important;
+  }

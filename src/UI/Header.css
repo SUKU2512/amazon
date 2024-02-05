@@ -1,0 +1,155 @@
+.wishcount{
+  font-size:large;
+  color: red;
+  margin-right: 15px;
+}
+.count{
+  font-size:large;
+  color: red;
+}
+.amain{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(114, 111, 111);
+  justify-content: center;
+}
+.searchicon{
+  margin-left: 130px;
+  margin-top: 8px;
+  width: 50px;
+  height: 25px;
+}
+.searchbar{
+  border-radius: 5px;
+  display: flex;
+  width: 300px;
+  border: 1px black solid;
+}
+.aone {
+  text-decoration: none;
+  width: 95px;
+  display: flex;
+  align-items: center;
+}
+.atwo {
+  display: flex;
+}
+.athree{
+  margin-top: 10px;
+}
+.searchhere{
+  width: 300px;
+}
+.profiles{
+  color: black;
+  font-size: large;
+  margin-top: 10px;
+  margin-right: 16px;
+}
+.profilebtn{
+  background-color:white;
+  cursor: pointer;
+  color: black;
+}
+.afour {
+  display: flex;
+  justify-content: end;
+}
+.mydropdowncss:hover .dropdown-menu {
+  display: block;
+}
+.full:hover .dropdown-menufull{
+display: block;
+}
+li{
+  cursor: pointer;
+}
+li:hover,.ddtxt:hover,.nhead:hover{
+color: red;
+}
+.logout:hover{
+  color: red;
+  cursor: pointer;
+  box-shadow: 2px 5px 12px black;
+}
+.dropbtn{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1.2;
+  width: 80px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover 
+{
+  background-color:white;
+}
+.ddtxt:hover{
+  box-shadow: 2px 5px 12px black;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.mhead{
+  margin-right: 35px;
+  margin-bottom: 0;
+  text-decoration:none;
+  color: black;
+}
+.profile,.heart,
+.cart{
+  height: 50px;
+  width: 25px;
+  text-decoration: none;
+  color: black;
+  margin-right: 5px;
+  align-items: center;
+}
+sup{
+  margin-top: 20px;
+}
+.ddtxt {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  text-align: left;
+}
+.dropbox {
+  padding-top: 60px;
+  padding-left: 30px;
+}
+.dropboxfull {
+  position: absolute;
+  top: 90%;
+  padding:50px;
+  right: -1074%;
+  width: 183.3vh;
+  background-color: white;
+  border: none;  
+}
+button:hover{
+ background-color: white!important;
+ color: black!important;
+}
+.there{
+  background-color: white;
+  width: fit-content;
+  margin-left: 5px;
+  margin-right: 15px;
+}

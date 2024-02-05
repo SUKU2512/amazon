@@ -1,0 +1,160 @@
+.round {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 0fr));
+}
+.main {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.left {
+  width: 242px;
+}
+.container {
+  position: relative;
+width:fit-content;
+}
+.ptmbtn {
+  margin-top: 5%;
+  margin-left: 65%;
+  width: fit-content;
+}
+.image {
+  padding-left: 2%;
+  width: 90%;
+  padding-top: 5%;
+}
+.rating {
+  position: absolute;
+  left: 30px;
+  background-color: white;
+  padding: 3px;
+  border-radius: 5px;
+  bottom: 70px;
+}
+.filter,
+.heading,
+.price,
+.categories {
+  margin-left: 23px;
+}
+.second {
+  border-left: 1px black solid;
+}
+.range {
+  margin-right: 30px;
+}
+.test3 {
+  margin-right: 8px;
+}
+.black,
+.blue,
+.green,
+.yellow,
+.red,
+.cream,
+.pink,
+.white {
+  padding-left: 13px;
+}
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.red {
+  background-color: red;
+}
+.cream {
+  background-color: beige;
+}
+.pink {
+  background-color: pink;
+}
+.white {
+  background-color: whitesmoke;
+}
+.dropdown {
+  margin-left: 1000px;
+}
+.box {
+  padding: 10px;
+}
+.Acart {
+  padding-left: 15%;
+  border: 1px black;
+}
+.short {
+  border: 1px solid black;
+  width: 100px;
+  height: 120px;
+  margin: 20px;
+}
+.div{
+  margin-left: 130px;
+}
+.table{
+  box-shadow: 1px 1px 1px 1px black;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.finalprice {
+  padding-left: 450px;
+}
+.cart {
+  cursor: pointer;
+}
+button:hover{
+  background-color: black!important;
+  color:white!important;
+}
+.noresult{
+  text-align: center;
+  margin-top: 50%;
+  width: 800px;
+
+}
+.spinbtn{
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 40px;
+  height: 25px;
+  margin-top: 70px;
+}
+.checkout{
+  width: 30%;
+  height: 60%;
+}
+.top {
+  display: flex;
+}
+.azsort{
+  background-color: aqua;
+}
+.MdRefresh {
+  cursor: pointer;
+  width: 20px;
+  height: 50px;
+}
+.az:hover{
+color: red;
+}
+.AAcart{
+  width: 80%;
+  box-shadow: 3px 3px 3px 3px black;
+  display: flex;
+}
+.cartname {
+  width: 100%;
+  padding-left: 100px;
+  
+}
+.cartprice {
+  padding-left: 170px;
+}

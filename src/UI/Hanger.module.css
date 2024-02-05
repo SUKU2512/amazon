@@ -1,0 +1,23 @@
+.hApp{
+  margin-top: 7%;
+}
+.hanger{
+  position: relative;
+}
+.himg{
+  width: 100%;
+  height: fit-content;
+}
+.hpar{
+  position: absolute;
+  top:390px;
+  left:0px;
+  color:red;
+  text-align: center;
+  font-weight: bold;
+}
+.hp{
+  inline-size: 350px;
+  word-wrap: break-word;
+  text-align: center;
+}

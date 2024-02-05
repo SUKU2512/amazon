@@ -1,0 +1,22 @@
+.left{
+justify-content: right;
+width: 900px;
+}
+.right{
+justify-content: left;
+}
+.app{
+    display: flex;
+}
+.totalamount{
+    margin-left: 20px;
+}
+.finalprice{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+.checkoutbtn{
+    width: 200px;
+}

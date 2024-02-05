@@ -1,0 +1,26 @@
+   .cart {
+    cursor: pointer;
+    width: 60px;
+    height: 30px ;
+    margin-left: 150px;
+  }
+  .rating {
+    position: absolute;
+    left: 10px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+    bottom: 70px;
+  }
+  .container {
+    position: relative;
+  }
+  .round {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 70fr));
+    margin: auto;
+  }
+  .App{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
